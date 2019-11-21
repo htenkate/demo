@@ -1,0 +1,268 @@
+/* reset */
+
+body,
+html,
+img,
+iframe,
+a {
+    padding:0;
+    margin:0;
+    border:none;
+    font-family: 'Poppins', sans-serif;
+    line-height: normal;
+    text-decoration: none;
+    scroll-behavior: smooth;
+ 
+
+    }
+
+body::-webkit-scrollbar { 
+    
+    display: none; 
+
+}
+
+/*font */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    width: 100vw;
+    background: #151515;
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 1320px) {
+
+    .section {
+        height: 600px !important;
+        overflow: hidden;
+    }
+
+    h1, span {
+
+        font-size: 47pt !important;
+        font-weight: 900;
+        margin-top: 100px !important;
+    }
+    .asterisk {
+        display:none;
+        }
+
+        
+}
+
+
+/*style */
+
+
+h1 {
+
+    font-size:67pt;
+    font-weight: 900;
+}
+
+h2 {
+
+    font-size:47pt;
+    font-weight: 900;
+    padding-top: 0px;
+    margin-top: 0px;
+    line-height: 47px;
+}
+
+
+.headermenu img {
+width: 120px;
+position:absolute;
+left: 20px;
+
+}
+
+.headermenu {
+    position: absolute;
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+    background: #ffffff;
+    height:40px;
+    padding:15px;
+    text-align: center;
+}
+
+.headermenu a {
+    color: #151515;
+    padding: 10px;
+    font-size: 15pt;
+    font-weight: 350;
+    }
+a:hover {
+
+    color: #21b6ea;
+}
+
+
+
+
+.headermenu li {
+
+
+}
+
+.mybutton {
+margin-top:60px;
+    border-radius: 15px;
+    border: none;
+    padding : 10px 40px 10px 40px;
+    text-align: center;
+    background-color: #21b6ea;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 21pt;
+
+}
+
+
+.mybutton a {
+    color: #ffffff !important;
+
+}
+.section {
+    margin: 0 auto;
+    background: cover;
+    overflow: hidden;
+    background-position: center;
+    width: 100%;
+    height: 990px;
+    text-align: center;
+
+}
+
+.section-text {
+    margin: 0 auto;
+    background: cover;
+    overflow: hidden;
+    background-position: center;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+
+}
+
+.contact {
+    height: 680px !important;
+    background: #ffffff;
+}
+.section-inner-1 {
+    width: 60%;
+    min-height:500px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-inner-text {
+
+    padding-top: 140px;
+    width: 80%;
+    min-height:200px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    column-count: 2; 
+    column-gap: 40px;
+    text-align: left !important;
+    column-width: 250px;
+    font-weight: 400;
+}
+
+
+.section-inner-2 {
+    width: 100%;
+    height: 450px;
+
+}
+.section-inner-1 h1 {
+    line-height: normal;
+    vertical-align:middle;
+    padding-top:30%;
+}
+
+.bg-one {
+    background-image: url("../img/1.jpeg")
+
+}
+
+
+iframe.video {
+
+    width:100vw;
+    height:100%;
+}
+
+.footer {
+width: 100%;
+height:120px;
+background: #151515;
+
+}
+
+
+/* MAILCHIMP FORM */
+
+    .asterisk {
+        font: 20pt !important;
+    }
+    
+    .indicates-required {
+
+        font-size :10pt;
+    }
+
+    #mc_embed_signup
+    {   background:#fff; 
+        clear:left; 
+        font:20px 'Poppins',Arial,sans-serif;
+        width:100% !important;
+        align-content: center;
+        color: #151515;
+        text-align:left;
+        margin: 0 auto;
+        font-weight: 400;
+        
+    }
+    #mc_embed_signup h1 {
+        float:none !important;
+        clear: both !important;
+    }
+    #mc-embedded-subscribe-form {
+        padding: 30px;
+        width:60%;
+        margin: 0 auto;
+        padding-top:100px;
+        padding-bottom:100px;
+    }
+    #mc_embed_signup input {
+        clear: both !important;
+        width: 100%;
+        height: 40px;
+    }   
+
+    #mc_embed_signup .button {
+        clear: both !important;
+        width: 40%;
+        height: 40px;
+        border:none;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+
+    } 
+    #mc_embed_signup .clear {
+        margin-top: 20px !important;
+        align-content: center;
+    }
